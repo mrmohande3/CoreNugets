@@ -5,28 +5,35 @@
     <Authors>mr.mohande3</Authors>
     <Company>HashSharp Company</Company>
     <Description>.net core base project</Description>
+    <PackageProjectUrl>https://github.com/mrmohande3/CoreNugets</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mrmohande3/CoreNugets</RepositoryUrl>
+    <Version>1.0.2</Version>
+    <PackageReleaseNotes>update packages</PackageReleaseNotes>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageLicenseFile></PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Autofac" Version="5.1.3" />
+    <PackageReference Include="Autofac" Version="5.2.0" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="6.0.0" />
-    <PackageReference Include="AutoMapper" Version="8.0.0" />
+    <PackageReference Include="AutoMapper" Version="8.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.3" />
-    <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="5.0.0-preview.2.20167.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="5.0.0-preview.4.20257.10" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.HttpsPolicy" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.0-preview.2.20167.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.0-preview.4.20257.10" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="4.1.1" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0-preview.2.20159.4" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.0-preview.2.20159.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0-preview.4.20220.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.0-preview.4.20220.10" />
     <PackageReference Include="NLog.Targets.Sentry3" Version="4.0.35" />
     <PackageReference Include="NLog.Web.AspNetCore" Version="4.9.2" />
     <PackageReference Include="Pluralize.NET" Version="1.0.2" />
-    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.5.0" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.3.3" />
-    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="5.3.3" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.5.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.4.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="5.4.1" />
     <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="5.1.1" />
   </ItemGroup>
 
