@@ -18,11 +18,11 @@ namespace HashSharpCore
         public static SiteSettings SiteSettings
         {
             get { return siteSettings; }
+            set { siteSettings = value; }
         }
-        public static void Init(Assembly projectAssembly , SiteSettings siteSettings)
+        public static void Init(Assembly projectAssembly)
         {
             proAssembly = projectAssembly;
-            Initializer.siteSettings = siteSettings;
         }
     }
 }
